@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: iherit;
+}
+
+main {
+  min-height: 480px;
+  background: transparent url(/stuff/apple-background.jpg) 40% 100% no-repeat;
+  background-size: cover;
+  font-family: 	'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 70px;
+  height: 80px;
+  display: block;
+}
+p {
+  font-size: 40px;
+}
+.Underline {
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+.Underline:hover {
+  text-decoration: underline;
+  color: white;
+  font-size: 30px;
+}
+
+.Iphones_adds {
+  display: inline;
+}
+.iphone5s,
+.iphone5sblue,
+.HBdy,
+.supplier {
+  width: 330px;
+}
+footer {
+  display: flex;
+  font-size: 15px;
+  margin: 30px;
+}
+.footer_links {
+  color: lightseagreen;
+}
