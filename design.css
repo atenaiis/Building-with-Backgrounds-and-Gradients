@@ -1,21 +1,88 @@
 html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: iherit;
+  margin: 0;
+  padding: 0;
 }
 
-main {
+nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  height: 120px;
+  margin: 50px;
+  font-size: 25px;
+  
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-image:linear-gradient(to bottom,#ccc -10% ,#888 25% ,#707070 50%,#666 50%);
+  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2), 0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  cursor: pointer;
+  overflow: hidden;
+  color: lavenderblush ;
+  border: hidden ;
+  border-left: 0;
+  text-shadow:2px 2px 4px #000000;
+ border-right: .5px  #333 solid;
+  
+}
+button:hover{
+  background: #666;
+}
+button:active{
+  background-color:#666;
+  box-shadow: 0 5px #333;
+  transform: translateY(4px);
+}
+.apple_button {
+  border-radius: 5px 0 0 5px;
+  font-size: 25px;
+}
+.support_button{
+ 
+  align-items: center;
+  width: 100px;
+  height: 40px;
+}
+form{
+ 
+  width: 110px;
+  height: 24px;
+  padding: 8px 20px;
+  background-image:linear-gradient(to bottom,#ccc -10% ,#888 25% ,#707070 50%,#666 50%);
+  border-radius:  0 5px 5px 0;
+  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),0 2px 1px 0 rgba(68, 68, 68, 0.2);
+}
+input{
+  border-radius: 10px;
+  
+}
+input:focus{
+  background: url(/stuff/search-icon.png) white 5% no-repeat;
+}
+
+.search {
+  background: url(/stuff/) gray 5% no-repeat;
+ width: 120px;
+ height: 25px;
+ float: left;
+ box-shadow:  1px 1px inset;
+ border-bottom: 0;
+}
+
+.background_image {
   min-height: 480px;
-  background: transparent url(/stuff/apple-background.jpg) 40% 100% no-repeat;
+  background: transparent url(/stuff/apple-background.jpg) 50% 100% no-repeat;
   background-size: cover;
-  font-family: 	'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
   text-align: center;
   color: white;
 }
 h1 {
+  clear: both;
   font-size: 70px;
   height: 80px;
   display: block;
@@ -46,7 +113,6 @@ p {
 footer {
   display: flex;
   font-size: 15px;
-  margin: 30px;
 }
 .footer_links {
   color: lightseagreen;
