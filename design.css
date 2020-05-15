@@ -11,27 +11,32 @@ nav {
   height: 120px;
   margin: 50px;
   font-size: 25px;
-  
 }
 button {
   width: 100px;
   height: 40px;
-  background-image:linear-gradient(to bottom,#ccc -10% ,#888 25% ,#707070 50%,#666 50%);
-  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2), 0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  background-image: linear-gradient(
+    to bottom,
+    #ccc -10%,
+    #888 25%,
+    #707070 50%,
+    #666 50%
+  );
+  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
+    0 2px 1px 0 rgba(68, 68, 68, 0.2);
   cursor: pointer;
   overflow: hidden;
-  color: lavenderblush ;
-  border: hidden ;
+  color: lavenderblush;
+  border: hidden;
   border-left: 0;
-  text-shadow:2px 2px 4px #000000;
- border-right: .5px  #333 solid;
-  
+  text-shadow: 2px 2px 4px #000000;
+  border-right: 0.5px #333 solid;
 }
-button:hover{
+button:hover {
   background: #666;
 }
-button:active{
-  background-color:#666;
+button:active {
+  background-color: #666;
   box-shadow: 0 5px #333;
   transform: translateY(4px);
 }
@@ -39,36 +44,40 @@ button:active{
   border-radius: 5px 0 0 5px;
   font-size: 25px;
 }
-.support_button{
- 
+.support_button {
   align-items: center;
   width: 100px;
   height: 40px;
 }
-form{
- 
+form {
   width: 110px;
   height: 24px;
   padding: 8px 20px;
-  background-image:linear-gradient(to bottom,#ccc -10% ,#888 25% ,#707070 50%,#666 50%);
-  border-radius:  0 5px 5px 0;
-  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  background-image: linear-gradient(
+    to bottom,
+    #ccc -10%,
+    #888 25%,
+    #707070 50%,
+    #666 50%
+  );
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
+    0 2px 1px 0 rgba(68, 68, 68, 0.2);
 }
-input{
+input {
   border-radius: 10px;
-  
 }
-input:focus{
+input:focus {
   background: url(/stuff/search-icon.png) white 5% no-repeat;
 }
 
 .search {
-  background: url(/stuff/) gray 5% no-repeat;
- width: 120px;
- height: 25px;
- float: left;
- box-shadow:  1px 1px inset;
- border-bottom: 0;
+  background: url(/stuff/search-icon-blanco.png) gray 5% no-repeat;
+  width: 120px;
+  height: 25px;
+  float: left;
+  box-shadow: 1px 1px inset;
+  border-bottom: 0;
 }
 
 .background_image {
