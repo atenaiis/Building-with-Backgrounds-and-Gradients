@@ -1,20 +1,19 @@
 html {
+  font-family: 'Open Sans Condensed', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  display: flex;
   align-items: center;
-  position: relative;
-  justify-content: center;
-  height: 120px;
-  margin: 50px;
+  display: flex;
   font-size: 25px;
+  height: 120px;
+  justify-content: center;
+  position: relative; 
 }
+
 button {
-  width: 100px;
-  height: 40px;
   background-image: linear-gradient(
     to bottom,
     #ccc -10%,
@@ -22,37 +21,41 @@ button {
     #707070 50%,
     #666 50%
   );
-  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
-    0 2px 1px 0 rgba(68, 68, 68, 0.2);
-  cursor: pointer;
-  overflow: hidden;
-  color: lavenderblush;
   border: hidden;
   border-left: 0;
-  text-shadow: 2px 2px 4px #000000;
   border-right: 0.5px #333 solid;
+  box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
+  0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  color: lavenderblush;
+  cursor: pointer;
+  height: 40px;
+  overflow: hidden;
+  text-shadow: 2px 2px 4px #000000;
+  width: 100px;
 }
+
 button:hover {
   background: #666;
 }
+
 button:active {
   background-color: #666;
   box-shadow: 0 5px #333;
   transform: translateY(4px);
 }
+
 .apple_button {
   border-radius: 5px 0 0 5px;
   font-size: 25px;
 }
+
 .support_button {
   align-items: center;
-  width: 100px;
   height: 40px;
+  width: 100px;
 }
+
 form {
-  width: 110px;
-  height: 24px;
-  padding: 8px 20px;
   background-image: linear-gradient(
     to bottom,
     #ccc -10%,
@@ -62,67 +65,96 @@ form {
   );
   border-radius: 0 5px 5px 0;
   box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
-    0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  height: 24px;
+  padding: 8px 20px;
+  width: 110px;
 }
+
 input {
   border-radius: 10px;
 }
+
 input:focus {
   background: url(/stuff/search-icon.png) white 5% no-repeat;
 }
 
 .search {
   background: url(/stuff/search-icon-blanco.png) gray 5% no-repeat;
-  width: 120px;
-  height: 25px;
-  float: left;
-  box-shadow: 1px 1px inset;
   border-bottom: 0;
+  box-shadow: 1px 1px inset;
+  float: left;
+  height: 25px;
+  width: 120px;
 }
 
 .background_image {
-  min-height: 480px;
+ 
   background: transparent url(/stuff/apple-background.jpg) 50% 100% no-repeat;
   background-size: cover;
-  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  text-align: center;
   color: white;
+  min-height: 480px;
+  padding: 0px 50px 10px 50px;
+  text-align: center;
 }
+
 h1 {
-  clear: both;
+  float: inline-start;
+  font-weight:lighter;
   font-size: 70px;
   height: 80px;
-  display: block;
 }
+
 p {
-  font-size: 40px;
+  font-size: 35px;
+  margin: 5px 250px 5px 300px;
+  text-align: center;
 }
+
 .Underline {
+  color: white;
   cursor: pointer;
-  color: white;
   font-size: 30px;
+  padding-bottom: 100px;
 }
+
 .Underline:hover {
-  text-decoration: underline;
   color: white;
   font-size: 30px;
+  text-decoration: underline;
 }
 
 .Iphones_adds {
   display: inline;
 }
+
 .iphone5s,
 .iphone5sblue,
 .HBdy,
 .supplier {
   width: 330px;
 }
-footer {
-  display: flex;
-  font-size: 15px;
+
+.footer_text, .footer_links  {
+  color: #666;
+  display: inline-block;
+  font-size: small;
+  text-decoration: none;
+  margin: 15px 15px 15px 70px;
 }
-.footer_links {
-  color: lightseagreen;
+
+a {
+  color:#0088cc; 
+  text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+.footer_lastline{
+  color: #666;
+  font-size: small;
+  margin-left: 70px;
+  text-align: left;
+}
+
