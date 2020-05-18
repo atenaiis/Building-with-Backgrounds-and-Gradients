@@ -1,16 +1,19 @@
 html {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
+body {
+  margin: 0;
+}
 nav {
   align-items: center;
   display: flex;
   font-size: 25px;
   height: 120px;
   justify-content: center;
-  position: relative; 
+  position: relative;
 }
 
 button {
@@ -25,7 +28,7 @@ button {
   border-left: 0;
   border-right: 0.5px #333 solid;
   box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
-  0 2px 1px 0 rgba(68, 68, 68, 0.2);
+    0 2px 1px 0 rgba(68, 68, 68, 0.2);
   color: lavenderblush;
   cursor: pointer;
   height: 40px;
@@ -65,7 +68,7 @@ form {
   );
   border-radius: 0 5px 5px 0;
   box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
-  0 2px 1px 0 rgba(68, 68, 68, 0.2);
+    0 2px 1px 0 rgba(68, 68, 68, 0.2);
   height: 24px;
   padding: 8px 20px;
   width: 110px;
@@ -89,18 +92,17 @@ input:focus {
 }
 
 .background_image {
- 
   background: transparent url(/stuff/apple-background.jpg) 50% 100% no-repeat;
   background-size: cover;
   color: white;
   min-height: 480px;
-  padding: 0px 50px 10px 50px;
+
   text-align: center;
 }
 
 h1 {
   float: inline-start;
-  font-weight:lighter;
+  font-weight: lighter;
   font-size: 70px;
   height: 80px;
 }
@@ -135,7 +137,8 @@ p {
   width: 330px;
 }
 
-.footer_text, .footer_links  {
+.footer_text,
+.footer_links {
   color: #666;
   display: inline-block;
   font-size: small;
@@ -144,17 +147,16 @@ p {
 }
 
 a {
-  color:#0088cc; 
+  color: #0088cc;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
-.footer_lastline{
+.footer_lastline {
   color: #666;
   font-size: small;
   margin-left: 70px;
   text-align: left;
 }
-
