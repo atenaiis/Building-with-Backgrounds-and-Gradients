@@ -1,7 +1,3 @@
-html {
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
 *,
 *:before,
 *:after {
@@ -14,16 +10,16 @@ body {
   margin: 0;
 }
 
-nav {
+.nav_bar {
   align-items: center;
   display: flex;
   font-size: 25px;
-  height: 120px;
+  height: 100px;
   justify-content: center;
   position: relative;
 }
 
-button {
+.navbar_buttos {
   background-image: linear-gradient(
     to bottom,
     #ccc -10%,
@@ -38,34 +34,34 @@ button {
     0 2px 1px 0 rgba(68, 68, 68, 0.2);
   color: lavenderblush;
   cursor: pointer;
-  height: 40px;
+  height: 30px;
   overflow: hidden;
   text-shadow: 2px 2px 4px #000000;
   width: 100px;
 }
 
-button:hover {
+.navbar_buttos:hover {
   background: #666;
 }
 
-button:active {
+.navbar_buttos:active {
   background-color: #666;
   box-shadow: 0 5px #333;
-  transform: translateY(4px);
 }
 
 .apple_button {
   border-radius: 5px 0 0 5px;
-  font-size: 25px;
+  font-size: 20px;
+  color: whitesmoke;
 }
 
 .support_button {
   align-items: center;
-  height: 40px;
+  height: 30px;
   width: 100px;
 }
 
-form {
+.search_form {
   background-image: linear-gradient(
     to bottom,
     #ccc -10%,
@@ -76,26 +72,28 @@ form {
   border-radius: 0 5px 5px 0;
   box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.2),
     0 2px 1px 0 rgba(68, 68, 68, 0.2);
-  height: 24px;
-  padding: 8px 20px;
-  width: 110px;
+  height: 30px;
+  padding: 3px;
+  width: 150px;
 }
 
-input {
+.search_text {
   border-radius: 10px;
+  border-right-color: #888;
 }
 
-input:focus {
+.search_text:focus {
   background: url(/stuff/search-icon.png) white 5% no-repeat;
 }
 
 .search {
-  background: url(/stuff/search-icon-blanco.png) gray 5% no-repeat;
+  background: url(/stuff/search-icon-blanco.png) 5% no-repeat,
+    linear-gradient(to bottom, #ccc -10%, #888 25%, #707070 50%, #666 50%);
   border-bottom: 0;
   box-shadow: 1px 1px inset;
-  float: left;
-  height: 25px;
-  width: 120px;
+  float: right;
+  height: 20px;
+  width: 130px;
 }
 
 .background_image {
@@ -103,66 +101,90 @@ input:focus {
   background-size: cover;
   color: white;
   min-height: 480px;
-
   text-align: center;
 }
+main {
+  margin: 0 auto;
+  width: 80%;
+}
 
-h1 {
-  float: inline-start;
+.first_text_line {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
   font-weight: lighter;
-  font-size: 70px;
-  height: 80px;
+  margin-top: 0px;
 }
 
 p {
-  font-size: 35px;
-  margin: 5px 250px 5px 300px;
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 90px;
+  width: 85%;
 }
 
 .Underline {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
   color: white;
   cursor: pointer;
+  font-size: 25px;
+  padding-bottom: 200px;
+}
+
+.fa-play-circle {
   font-size: 30px;
-  padding-bottom: 100px;
 }
 
 .Underline:hover {
   color: white;
-  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
   text-decoration: underline;
 }
 
 .Iphones_adds {
-  display: inline;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .iphone5s,
 .iphone5sblue,
 .HBdy,
 .supplier {
-  width: 330px;
+  cursor: pointer;
+  margin: 2px;
+  width: fit-content;
 }
 
+footer {
+  margin: 0 auto;
+  width: 90%;
+}
 .footer_text,
 .footer_links {
   color: #666;
   display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: small;
-  text-decoration: none;
   margin: 15px 15px 15px 70px;
+  text-decoration: none;
 }
 
-a {
+.footer_link {
   color: #0088cc;
   text-decoration: none;
 }
 
-a:hover {
+.footer_link:hover {
   text-decoration: underline;
 }
+
 .footer_lastline {
   color: #666;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: small;
   margin-left: 70px;
   text-align: left;
