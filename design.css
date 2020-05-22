@@ -83,11 +83,11 @@ body {
 }
 
 .search_text:focus {
-  background: url(/stuff/search-icon.png) white 5% no-repeat;
+  background: url(./stuff/search-icon.png) white 5% no-repeat;
 }
 
 .search {
-  background: url(/stuff/search-icon-blanco.png) 5% no-repeat,
+  background: url(./stuff/search-icon-blanco.png) 5% no-repeat,
     linear-gradient(to bottom, #ccc -10%, #888 25%, #707070 50%, #666 50%);
   border-bottom: 0;
   box-shadow: 1px 1px inset;
@@ -97,7 +97,7 @@ body {
 }
 
 .background_image {
-  background: transparent url(/stuff/apple-background.jpg) 50% 100% no-repeat;
+  background: transparent url(./stuff/apple-background.jpg) 50% 100% no-repeat;
   background-size: cover;
   color: white;
   min-height: 480px;
