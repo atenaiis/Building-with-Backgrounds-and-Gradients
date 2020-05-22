@@ -2,7 +2,7 @@
 
 The aim of the project is to copy [this](https://web.archive.org/web/20140301004610/http://www.apple.com/
 
-![screenshot](C:\Users\Regina\Documents\GitHub\Building-with-Backgrounds-and-Gradients\stuff\screenshot.PNG)
+![screenshot](./stuff/screenshot.PNG)
 
 We created this project in the intuit_design branch.
 
