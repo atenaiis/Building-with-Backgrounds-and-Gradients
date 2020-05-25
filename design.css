@@ -49,9 +49,6 @@ body {
   font-weight: normal;
   text-decoration: none;
 }
-.form_box{
-  list-style: none;
-}
 
 .navbar_buttos:hover {
   background: #666;
@@ -72,6 +69,10 @@ body {
   align-items: center;
   height: 30px;
   width: 100px;
+}
+
+.form_box {
+  list-style: none;
 }
 
 .search_form {
