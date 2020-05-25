@@ -49,6 +49,9 @@ body {
   font-weight: normal;
   text-decoration: none;
 }
+.form_box{
+  list-style: none;
+}
 
 .navbar_buttos:hover {
   background: #666;
