@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/atenaiis/Building-with-Backgrounds-and-Gradients#readme",
   "devDependencies": {
+    "prettier": "2.0.5",
     "stylelint": "^13.5.0",
     "stylelint-config-recommended": "^3.0.0"
   },
