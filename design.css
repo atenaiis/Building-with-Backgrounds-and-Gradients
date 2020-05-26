@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav_bar > ul {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar_buttos {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #ccc -10%,
+      #888 25%,
+      #707070 50%,
+      #666 50%
+    );
+  border: hidden;
+  border-left: 0;
+  border-right: 0.5px #333 solid;
+  box-shadow:
+    0 2px 1px 0 rgba(68, 68, 68, 0.2),
+    0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  cursor: pointer;
+  height: 30px;
+  overflow: hidden;
+  list-style: none;
+  padding-top: 5px;
+  text-shadow: 2px 2px 4px #000;
+  width: 100px;
+}
+
+.navbar_buttos > a {
+  color: lavenderblush;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.navbar_buttos:hover {
+  background: #666;
+}
+
+.navbar_buttos:active {
+  background-color: #666;
+  box-shadow: 0 5px #333;
+}
+
+.apple_button {
+  border-radius: 5px 0 0 5px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.support_button {
+  align-items: center;
+  height: 30px;
+  width: 100px;
+}
+
+.form_box {
+  list-style: none;
+}
+
+.search_form {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #ccc -10%,
+      #888 25%,
+      #707070 50%,
+      #666 50%
+    );
+  border-radius: 0 5px 5px 0;
+  box-shadow:
+    0 2px 1px 0 rgba(68, 68, 68, 0.2),
+    0 2px 1px 0 rgba(68, 68, 68, 0.2);
+  height: 30px;
+  padding: 3px;
+  width: 150px;
+}
+
+.search_text {
+  border-radius: 10px;
+  border-right-color: #888;
+}
+
+.search_text:focus {
+  background: url(./stuff/search-icon.png) white 5% no-repeat;
+}
+
+.search {
+  background:
+    url(./stuff/search-icon-blanco.png) 5% no-repeat,
+    linear-gradient(to bottom, #ccc -10%, #888 25%, #707070 50%, #666 50%);
+  border-bottom: 0;
+  box-shadow: 1px 1px inset;
+  float: right;
+  height: 20px;
+  width: 130px;
+}
+
+.background_image {
+  background: transparent url(./stuff/apple-background.jpg) 50% 100% no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 480px;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.first_text_line {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 90px;
+  width: 85%;
+}
+
+.Underline {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  padding-bottom: 200px;
+}
+
+.fa-play-circle {
+  font-size: 30px;
+}
+
+.Underline:hover {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+.Iphones_adds {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.Iphones_adds > img {
+  width: 100%;
+}
+
+.iphone5s,
+.iphone5sblue,
+.HBdy,
+.supplier {
+  cursor: pointer;
+  margin: 2px;
+  width: fit-content;
+}
+
+footer {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footer_text,
+.footer_links {
+  color: #666;
+  display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: small;
+  margin: 15px 15px 15px 70px;
+  text-decoration: none;
+}
+
+.footer_link {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer_link:hover {
+  text-decoration: underline;
+}
+
+.footer_lastline {
+  color: #666;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: small;
+  margin-left: 70px;
+  text-align: left;
+}

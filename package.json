@@ -1,0 +1,26 @@
+{
+  "name": "Building-with-Backgrounds-and-Gradients",
+  "version": "1.0.0",
+  "description": "The aim of the project is to copy [this](https://web.archive.org/web/20140301004610/http://www.apple.com/",
+  "main": "stylelint.config .js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atenaiis/Building-with-Backgrounds-and-Gradients.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atenaiis/Building-with-Backgrounds-and-Gradients/issues"
+  },
+  "homepage": "https://github.com/atenaiis/Building-with-Backgrounds-and-Gradients#readme",
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "stylelint": "^13.5.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {}
+}
